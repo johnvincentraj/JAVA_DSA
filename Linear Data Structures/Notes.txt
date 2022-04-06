@@ -1,0 +1,79 @@
+Over View of Data Structures
+
+Data Structures
+```````````````
+1. A data structures is a particular way of organizing data in a computer so that it can be used effectively. 
+2. The idea is to reduce the space and time complexities of different tasks.
+3. Below is an overview of some popular linear data structures.
+
+1. Array
+```````
+1. The array is a data structure used to store homogeneous elements at contiuous locations.
+2. The size of an array must be provided before storing data.
+
+1.1 Let size of array be n.
+````````````````````````````
+1. Accessing Time
+`````````````````
+O(1) [This is possible because elements are stored at contiguous locations]
+
+2. Searching Time
+`````````````````
+O(n) For sequential search
+O(log n) For binary search [If array is sorted]
+
+3. Insertion Time
+`````````````````
+O(n) [the worst case occurs when insertion happens at the beginning of an array and requires shifting all of the elements]
+
+4. Deletion Time
+````````````````
+O(n) [The worst case occurs when deletion happens at the beginning of an array and requires shifting all of the elements]
+
+2. Linked List
+``````````````
+1. A linked list is a linear data structure (like array) where each elements is a separate object.
+2. Each element (this is node) of a list is comprised of two items - the data and a reference to the next node.
+
+2.1 Types of Linked List
+````````````````````````
+1. Singly linked list
+`````````````````````
+In this type of linked list, every node stores address or reference of the next node in the list and the last node has the next address or reference as NULL.
+For example 1 -> 2 -> 3 -> NULL.
+
+2. Doubly linked list
+````````````````````
+In this type of Linked list, there are two references assosiated with each node, One of the reference points to the next node and one to the previous node.
+The advantage of this data structure is that we can traverse in both directions and for deletion, we don't need to have explicit access to the previous node.
+For example, NULL <- 1 <- 2 -> 3 -> NULL.
+
+3. Circular linked list
+```````````````````````
+Circular linked list is a linked list where all nodes are connected to form a circle.
+There is no NULL at the end. A circular linked list can be singly circular linked list or a doubly circular linked list.
+The advantage of this data structure is that any node can be made as starting node.
+This useful in the implementation of the circular queues in the linked list.
+For example, 1 -> 2 -> 3 -> 1 [the next pointer of the last node is poiniting to the first]
+
+  3.1 Accessing time of an element : O(n)
+  3.2 Search time of an element : O(n)
+  3.3 Insertion of an element : O(1) [If we are at the position where we have to insert an element]
+  3.4 Deletion of an element : O(1) [If we know address of node previous the node to be deleted]
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
