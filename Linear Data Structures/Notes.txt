@@ -6,6 +6,8 @@ Data Structures
 2. The idea is to reduce the space and time complexities of different tasks.
 3. Below is an overview of some popular linear data structures.
 
+--------------------------------------------------------------------------------------------------------------------------
+
 1. Array
 ```````
 1. The array is a data structure used to store homogeneous elements at contiuous locations.
@@ -29,6 +31,8 @@ O(n) [the worst case occurs when insertion happens at the beginning of an array 
 4. Deletion Time
 ````````````````
 O(n) [The worst case occurs when deletion happens at the beginning of an array and requires shifting all of the elements]
+
+--------------------------------------------------------------------------------------------------------------------------
 
 2. Linked List
 ``````````````
@@ -61,7 +65,8 @@ For example, 1 -> 2 -> 3 -> 1 [the next pointer of the last node is poiniting to
   3.3 Insertion of an element : O(1) [If we are at the position where we have to insert an element]
   3.4 Deletion of an element : O(1) [If we know address of node previous the node to be deleted]
   
-  
+--------------------------------------------------------------------------------------------------------------------------
+
 
 
 
